@@ -1,0 +1,149 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.title h2 {
+  font-size: 20px;
+  margin-left: 20px;
+  color: rgba(18, 10, 26, 0.651);
+}
+.title h2:hover {
+  border-bottom: 2px solid blue;
+  color: blue;
+  transform: scale(1.1);
+  transition: transform 2s ease;
+}
+.title h5 {
+  font-size: 13px;
+  margin-right: 20px;
+}
+.title h5:hover {
+  border-bottom: 2px solid rgb(255, 0, 21);
+  color: rgb(255, 0, 0);
+  transform: scale(1.4);
+  transition: transform 2s ease;
+}
+.title img {
+  width: 15px;
+  height: 15px;
+}
+.title.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+.wrapper {
+  width: calc(100% / 6);
+}
+.contener {
+  position: relative;
+  width: 200px;
+  height: 270px;
+  border: 1px solid rgba(155, 142, 142, 0.219);
+  display: flex;
+  gap: 15px;
+  border-radius: 20px;
+  position: relative;
+}
+.card_imeges {
+  position: absolute;
+  width: 100%;
+  height: 70%;
+  background-color: rgba(192, 192, 192, 0.171);
+  border-radius: 20px 20px 0 0;
+}
+.cardId {
+  position: absolute; 
+  left: 164px; 
+  width: 35px;
+  height: 35px;
+  background-color: rgba(0, 0, 255, 0.404); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+  border-radius: 0 20px 0 10px;
+}
+.cardId a {
+  text-decoration: none;
+}
+.cardId:hover {
+  background-color: rgba(134, 13, 128, 0.521);
+  font-size: 17px;
+}
+.card_imeges {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imeges img {
+  width: 80px;
+  height: 130px;
+  border-radius: 5px;
+}
+.imeges.img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imeges img:hover {
+  transform: scale(1.4);
+  transition: transform 2s ease;
+}
+.imeges img:not(:hover) {
+  transition: transform 3s ease;
+}
+.card_title {
+  margin-left: 15px;
+  margin-top: 200px;
+}
+.title h4 {
+  font-size: 15px;
+  color: #333;
+}
+.iphone a {
+  font-size: 12px;
+  text-decoration: none;
+  color: black;
+}
+.iphone a:hover {
+  font-size: 15px;
+  text-decoration: underline;
+  color: blue;
+}
+.border_border {
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.border {
+  border: 0.1px solid rgba(226, 226, 226, 0.199);
+  width: 160px;
+  margin: 0 auto;
+  display: block;
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+.adress {
+  font-size: 14px;
+}
